@@ -144,6 +144,11 @@ This project was created to explore movie analytics, machine learning, and recom
 
 📬 Contact 
 
-For questions, collaboration, or feedback: James Nguyen
-Data Analyst & Dashboard Designer (Linkedin: https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/
-For more projects finding:https://baominhnt.github.io/tbmnguyen.com/index.html)
+## 📬 Contact
+
+For questions, collaboration, or feedback: **Tran Bao Minh "James" Nguyen**  
+Data Analyst & Dashboard Designer  
+
+- [LinkedIn](https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/)  
+- [Portfolio & More Projects](https://baominhnt.github.io/tbmnguyen.com/index.html)
+
