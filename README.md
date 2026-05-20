@@ -113,6 +113,28 @@ Movie-Analysis-MachineLearning-RecommendationSystem/
 └── README.md                      # Project documentation
 
 ```
+## ▶️ Example Usage
+```python
+recommend(
+    favourite_titles = ["Inception"],
+    preferred_genres = ["Science Fiction"],
+    min_bb_prob      = 0.70,
+    top_n            = 6
+)
+
+Building profile from: ['Inception']
+Genre filter applied: ['Science Fiction'] → 14591 candidates
+Blockbuster filter (≥0.7): 328 candidates
+
+                               title  release_year  vote_average  sim_score   bb_prob  final_score
+0                         Armageddon          1998         6.829   0.961245   0.846637     0.915402
+1                 Sonic the Hedgehog          2020         7.345   0.962826   0.836518     0.912303
+2             Avengers: Infinity War          2018         8.255   0.947106   0.846637     0.906919
+3                       Transformers          2007         6.800   0.946983   0.846637     0.906845
+4  Spider-Man: Into the Spider-Verse          2018         8.404   0.944431   0.846637     0.905314
+5                       The Avengers          2012         7.710   0.941591   0.846637     0.903609
+```
+
 🙌 Acknowledgements
 
 Dataset: [TMDB Movies Dataset (Kaggle)](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)    
