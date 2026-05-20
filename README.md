@@ -86,9 +86,20 @@ Each recommendation also includes a **radar chart** comparing sentiment profiles
 - Keras (Autoencoder)  
 - NLTK, NRC Lexicons (EmoLex, VAD, Intensity)  
 - Matplotlib (Radar Charts)  
-- PostgreSQL  
-- Streamlit *(in progress)*  
+
 
 ---
 
 ## 📁 Project Structure
+notebooks/
+01_EDA.ipynb
+02_Phase1_ML.ipynb
+03_Phase2_RecSystem.ipynb
+artifacts/
+lgbm_model.pkl
+encoder.h5
+scaler.pkl
+movie_embeddings.npy
+data/
+movies_db.csv
+README.md
