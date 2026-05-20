@@ -91,43 +91,27 @@ Each recommendation also includes a **radar chart** comparing sentiment profiles
 ---
 
 ## 📁 Project Structure
-notebooks/
-01_EDA.ipynb
-02_Phase1_ML.ipynb
-03_Phase2_RecSystem.ipynb
-artifacts/
-lgbm_model.pkl
-encoder.h5
-scaler.pkl
-movie_embeddings.npy
-data/
-movies_db.csv
-README.md
+
 
 ```text
-HCAHPS-Analysis/
+Movie-Analysis-MachineLearning-RecommendationSystem/
 │
 ├── data/
-│   ├── raw/                # Original TMDB datasets
-│   └── processed/          # Cleaned and standardized datasets
+│   └── movies_db.csv             # Scored dataset (bb_prob + embeddings)
 │
 ├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Phase1_ML.ipynb
-│   └── 03_Phase2_RecSystem.ipynb
+│   ├── 01_EDA.ipynb               # Exploratory Data Analysis
+│   ├── 02_Phase1_ML.ipynb         # Blockbuster classification
+│   └── 03_Phase2_RecSystem.ipynb  # Recommendation engine
 │
-├── src/
-│   ├── data_preprocessing.py
-│   ├── eda_utils.py
-│   └── visualization.py
+├── artifacts/
+│   ├── lgbm_model.pkl             # Trained LightGBM model
+│   ├── encoder.h5                 # Trained autoencoder encoder
+│   ├── scaler.pkl                 # StandardScaler
+│   └── movie_embeddings.npy       # Precomputed sentiment embeddings
 │
-├── outputs/
-│   ├── figures/            # Exported charts and plots
-│   └── tables/             # Summary tables and metrics
-│
-├── recommendation system
-│
-└── README.md
+└── README.md                      # Project documentation
+
 ```
 🙌 Acknowledgements
 
